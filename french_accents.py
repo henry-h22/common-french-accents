@@ -12,7 +12,7 @@ def make_button(character: str, r: int, c: int):
         highlightcolor="DodgerBlue2",
         font=('Times', -40, 'bold'),
         borderwidth=6,
-        command=lambda: copy(accent)
+        command=lambda: copy(character)
     ).grid(row=r, column=c)
 
 
