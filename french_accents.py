@@ -19,7 +19,7 @@ def make_button(character: str, r: int, c: int):
 window = tk.Tk()
 window.title(":)")
 
-icon = tk.PhotoImage(file='accents.png')
+icon = tk.PhotoImage(file='images/icon.png')
 window.iconphoto(False, icon)
 
 label = tk.Label(
