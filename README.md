@@ -9,5 +9,5 @@
 pip install -r requirements.txt
 ```
 
-###Here's what it looks like!
+### Here's what it looks like! <br>
 ![Alt text](https://github.com/henry-h22/common-french-accents/blob/main/demo.JPG)
