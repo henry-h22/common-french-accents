@@ -9,7 +9,7 @@ def copyy(a):
 window = tk.Tk()
 window.title(":)")
 
-icon = tk.PhotoImage(file='apps i made/icons/accents.png')
+icon = tk.PhotoImage(file='accents.png')
 window.iconphoto(False, icon)
 
 label = tk.Label(
