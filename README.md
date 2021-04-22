@@ -8,3 +8,6 @@
 ```bash
 pip install -r requirements.txt
 ```
+
+<h3>Here's what it looks like!</h3>
+![The final product](demo.jpg)
