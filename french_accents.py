@@ -1,14 +1,10 @@
 import tkinter as tk
-import pyperclip as pc
-
-
-def copyy(a):
-    pc.copy(a)
+from pyperclip import *
 
     
-def make_button(accent: str, r: int, c: int):
+def make_button(character: str, r: int, c: int):
     tk.Button(
-        text=accent,
+        text=character,
         width=3,
         height=1,
         bg="medium turquoise",
@@ -16,7 +12,7 @@ def make_button(accent: str, r: int, c: int):
         highlightcolor="DodgerBlue2",
         font=('Times', -40, 'bold'),
         borderwidth=6,
-        command=lambda: copyy(accent)
+        command=lambda: copy(accent)
     ).grid(row=r, column=c)
 
 
