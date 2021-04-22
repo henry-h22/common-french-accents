@@ -5,6 +5,20 @@ import pyperclip as pc
 def copyy(a):
     pc.copy(a)
 
+    
+def make_button(accent: str, r: int, c: int):
+    tk.Button(
+        text=accent,
+        width=3,
+        height=1,
+        bg="medium turquoise",
+        fg="black",
+        highlightcolor="DodgerBlue2",
+        font=('Times', -40, 'bold'),
+        borderwidth=6,
+        command=lambda: copyy(accent)
+    ).grid(row=r, column=c)
+
 
 window = tk.Tk()
 window.title(":)")
