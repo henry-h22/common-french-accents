@@ -10,4 +10,4 @@ pip install -r requirements.txt
 ```
 
 <h3>Here's what it looks like!</h3>
-![The final product](https://github.com/henry-h22/common-french-accents/blob/main/demo.jpg?raw=true)
+![The final product](https://github.com/henry-h22/common-french-accents/blob/main/demo.JPG)
